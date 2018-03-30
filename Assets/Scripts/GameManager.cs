@@ -14,8 +14,8 @@ public class GameManager : MonoBehaviour {
 	public gameStates gameState = gameStates.Playing;
 
 	public int score=0;
-	public bool canBeatLevel = true;
-	public int beatLevelScore=2;
+	public bool canBeatLevel = false;
+	public int beatLevelScore=0;
 
 	public GameObject mainCanvas;
 	public Text mainScoreDisplay;
